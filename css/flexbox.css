@@ -8,9 +8,22 @@
 .cabecera__buscar__item{
     display: none;
 }
-
+.rodapie__container{
+    display:flex;
+    flex-flow: column wrap; /* Hace una columna y va expandiendo confore al contenedor */
+}
+.superior__seccion__container{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;/*Texto o contenido en una sola linea*/
+    gap:15px;/*espaciado entre elemntos de 15 px*/
+    overflow: scroll;/*coloca una barra de desplazamiento al contenedor*/
+}
 @media (min-width:834px){
     .cabecera__buscar__item{
         display: block;
+    }
+    .rodapie__container{
+        justify-content:space-between;
     }
 }
