@@ -67,6 +67,19 @@
    
 }
 
+/* Videos */
+.videos__item{
+    width: 280px;
+    height: 303px;
+    flex-grow: 1; /* Se utiliza para expandir elementos proporcionalmente según el espacio disponible en un contenedor,con 1 significa que todos deben estar proporcionales */
+}
+
+.videos__container{
+    display: flex;
+    flex-wrap: wrap; /* define que los items  se puedan ajustar en diferentes filas y columnas */
+    gap:10px;
+}
+
 
 
 @media (min-width:834px) {
