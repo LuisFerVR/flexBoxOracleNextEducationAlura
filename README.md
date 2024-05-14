@@ -7,12 +7,15 @@
 
 ## Descripción del proyecto:
 Este proyecto tuvo como objetivo reforzar los conocimientos adquiridos medinate el curso de FlexBox a cargo de Alura Latam y Oracle One Next Education.
-Aquí podrás encontrar el link de diseño en figma, link de proyecto razi en github y link de la páina despleada.
+Aquí podrás encontrar el link de diseño en figma, link de proyecto raiz en github y link de la páina desplegada.
 ## Despliegue:
 
-## Diseño:
+Podrás observar el trabajo realizado con flexbox en el siguiente enlace:
+
+:rocket:[Abrir sitio web](https://luisfervr.github.io/flexBoxOracleNextEducationAlura/):rocket:
 
 ## Dev-Notes:
+
 ### FlexBox
             <p>.clase{
                     display: flex; Establece que el elemento usa Flexbox <br>
